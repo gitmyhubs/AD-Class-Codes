@@ -1,0 +1,34 @@
+
+
+div {  
+    width: 100px;  
+    height: 100px;  
+    background: red;  
+    position: relative;  
+    -webkit-animation: pk 5s; /* Chrome, Safari, Opera */  
+    animation: pk 5s;  
+}  
+/* Chrome, Safari, Opera */  
+@-webkit-keyframes pk {  
+    0%   {background:red; left:0px; top:0px;}  
+    10%  {background:yellow; left:300px; top:0px;}  
+    10%  {background:blue; left:300px; top:200px;}  
+    10%  {background:green; left:0px; top:200px;}  
+    20% {background:rgba(90, 162, 204, 0.349); left:0px; top:0px;}  
+    20% {background:rgba(255, 0, 0, 0.349); left:0px; top:0px;}  
+    10% {background:rgba(173, 143, 143, 0.349); left:0px; top:0px;}  
+    10% {background:rgba(156, 189, 156, 0.349); left:0px; top:0px;}  
+    10% {background:rgba(34, 33, 33, 0.349); left:0px; top:0px;}  
+}  
+/* Standard syntax */  
+@keyframes pk {  
+    0%   {background:red; left:0px; top:0px;}  
+    10%  {background:yellow; left:300px; top:0px;}  
+    10%  {background:blue; left:300px; top:200px;}  
+    10%  {background:green; left:0px; top:200px;}  
+    20% {background:rgba(90, 162, 204, 0.349); left:0px; top:0px;}  
+    20% {background:rgba(255, 0, 0, 0.349); left:0px; top:0px;}  
+    10% {background:rgba(173, 143, 143, 0.349); left:0px; top:0px;}  
+    10% {background:rgba(156, 189, 156, 0.349); left:0px; top:0px;}  
+    10% {background:rgba(34, 33, 33, 0.349); left:0px; top:0px;}  
+}

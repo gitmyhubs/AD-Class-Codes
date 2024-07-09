@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Image Overlay</title>
+    <style>
+        .container img {
+            width: 300px;
+            height: 300px;
+        }
+        .container {
+            position: relative;
+            width: 25%;
+            height: auto;
+        }
+        .overlay {
+            position: absolute;
+            transition: 0.5s ease;
+            height: 300px;
+            width: 300px;
+            top: 0;
+            left: 20px;
+            background-color: lightblue;
+            opacity: 0;
+        }
+
+        .container:hover .overlay {
+            opacity: 0.5;
+        }  
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <h1>CSS Overlay</h1>
+        <h3>Fade in Overlay</h3>
+        <h2>Move the cursor over the image to see the effect</h2>
+        <div class="container">
+            <img src="images/cat.jpeg">
+            <div class="overlay"></div>
+        </div>    
+    </center>
+</body>
+
+</html>

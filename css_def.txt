@@ -1,0 +1,631 @@
+#   Introduction to CSS:-
+    ->CSS stands for Cascading Style Sheet.
+    ->CSS is used to design HTML tags.
+    ->CSS is a widely used language on the web.
+    ->HTML, CSS and JavaScript are used for web designing. It helps the web designers to apply 
+        style on HTML tags.
+  
+#   What is CSS:-
+    CSS stands for Cascading style sheets. It describes to the user how to display HTML 
+    elements on the screen in a proper format. CSS is the language that is used to style
+    HTML documents. In simple words, cascading style sheets are a language used to simplify 
+    the process of making a webpage.
+
+    CSS is used to handle some parts of the webpage. With the help of CSS, we can control 
+    the colour of text and style of fonts, and we can control the spacing between the paragraph
+    and many more things. CSS is easy to understand but provides strong control on the Html 
+    documents.CSS is combined with HTML.
+
+#   Advantages of CSS:-
+
+    => Faster page speed: It has a faster page speed than other code's page speeds.
+    With the help of the CSS rule, we can apply it to all occurrences of certain
+    tags in HTML documents.
+
+    => Better user experience: CSS makes a webpage very attractive to the eyes. Also,
+    CSS makes it user-friendly. When the button or text is in a proper format, 
+    it improves the user experience.
+
+    => Quicker Development time: With the help of CSS, we can specify the format and style 
+    the multiple pages into one code string. In cascading style sheet, we can make a 
+    duplicate copy of several website pages
+
+    => If we make a webpage, it has the same formatting, looks, and feel, so with the help 
+    of the CSS rule for one page, and it is sufficient for all the pages.
+
+    => Easy Formatting changes: In CSS, if we need to make changes in the format, 
+        it is very easy; we only need to change the one-page format it will automatically 
+        apply to the other pages of CSS.
+
+        There is no need to correct individual pages in a CSS style sheet. If we fix a CSS
+        style sheet, it will automatically update the other CSS style sheet.
+
+    => Compatibility: Compatibility is very important in today's age. If we create any webpage,
+        it should be very responsive and user-friendly. CSS is used with Html to make webpage 
+        design responsive.
+
+CSS Syntax:
+selector{properties:value}
+
+-> selector
+-> properties name
+-> properties value
+
+example:
+<p style="color:red;">
+p-> selector
+color-> properties name
+red-> properties value
+
+# Types Of CSS:
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+1. Inline CSS:- Inline CSS is used to style the elements of HTML documents. It is used in HTML
+    to style the attribute without using the selectors. It is challenging to manage the inline
+function in websites compared to other types. It is very helpful in HTML in some situations.
+
+example:- 
+        <p style="color: blue;">
+
+2. Internal CSS:- Internal CSS is used to design the style single page effectively. It is
+more time-consuming because we can only work on one page or we need to style each web page.
+In Internal CSS, we style a single webpage uniquely.
+
+syntax: <style>
+           your css code here.....
+        </style>
+
+3. External CSS:- The Exaternal Style sheet is generally used when you want to make changes
+                    on multiple pages. It is ideal for this condition because it facilitates
+                    you to change the look of the entire web site by changing just on file.
+
+                    It uses the <link> tag on every pages and the <link> tag should be put
+                    inside the head section.
+
+                    The extension of css is .css, The file name should save in .css format.
+                    example: style.css
+
+CSS PROPERTIES:
+----------------
+CSS background:-
+1> background-color
+2> background-image
+3> background-repeat
+4> background-attachment
+5> background-position
+
+1> background-color:- The background property is used to specify the
+                      background color of the element.
+
+2> background-image:- The background-image property is used to set an image as a background of 
+                        of an element. By default the image covers the entire element.
+                        You can set the background image for a page.
+
+3> background-repeat:- By default, The background-image property repeats the background image
+                        horizontally and vertically. Some images are repeated only horizontally
+                        or vertically.
+
+4> background-attachment:- The background-attachment property is used to specify if the
+                            background image is fixed or scroll with the rest of the page
+                            in browser window. If you set fixed the background image then the 
+                            image will not move during scrolling in the browser.
+
+5> background-position:- The background position property is used to define the initial position
+                            of the background image. By default, the background image is placed
+                            on the top-left of the webpage.
+
+                            > center
+                            > top
+                            > bottom
+                            > left
+                            > right
+
+# CSS Borders:
+    ->border-style
+    ->border-color
+    ->border-width
+    ->border-radius
+
+-> border-style:
+Value:	    Description:
+none    ->	It doesn't define any border.
+dotted  ->	It is used to define a dotted border.
+dashed  ->	It is used to define a dashed border.
+solid   ->	It is used to define a solid border.
+double  ->	It defines two borders with the same border-width value.
+groove  ->	It defines a 3d grooved border. effect is generated according to border-color value.
+ridge   ->	It defines a 3d ridged border. effect is generated according to border-color value.
+inset   ->	It defines a 3d inset border. effect is generated according to border-color value.
+outset  ->	It defines a 3d outset border. effect is generated according to border-color value.
+
+-> Border-color:
+    - name: blue
+    - rgb(124,123,0)
+    - hex:- #41da8b
+
+-> border-width: 
+    Note: The border-width property isn't utilized alone. It is constantly utilized with other
+          border properties like "border-style" property to set the border first any other
+          way it won't work.
+
+-> border-radius:
+property name:
+border-top-left-radius - It is used to set the border-radius for the top-left corner.
+border-top-right-radius- It is used to set the border-radius for the to right corner.
+border-bottom-right-radius- It is used to set the border-radius for the bottom right corner.
+border-bottom-left-radius- It is used to set the border-radius for the bottom-let corner.
+
+# CSS Display:
+        CSS display is the most important property of CSS which is used to control the layout
+        of the element. It specifies how the element is displayed.
+
+CSS Display default properties:
+default value           - inline
+inherited               - no
+animation supporting    - no
+version                 - css1
+javascript syntax       - object.style.display="none"
+
+CSS display values:
+display: inline;
+display: inline-block;
+display: block;
+display: run-in;
+display: none;
+
+->CSS display inline:
+        The inline element takes the required width only. It doesn't force the line break
+        so the flow of text doesn't break in inline example.
+The inline elements are:
+<span>
+<a>
+<em>
+<b> etc.
+
+2) CSS display inline-block:
+    The CSS display inline-block element is very similar to inline element but the difference
+    is that you are able to set the width and height.
+
+3) CSS display block:
+    The CSS display block element takes as much as horizontal space as they can. Means 
+    block element takes the full available width. They make a line break before and after them.
+
+4) CSS display run-in:
+If the run-in box contains a block box, it will be same as block.
+If the block box follows the run-in box, the run-in box becomes the first inline box 
+the block box.
+If the inline box follows the run-in box, the run-in box becomes a block box.
+
+5) CSS display none:
+The "none" value totally removes the element from the page. It will not take any space
+
+Other CSS display values
+Property-value	            Description
+
+flex	            - It is used to display an element as an block-level flex container.
+                      It is new in css3.
+inline-flex	        - It is used to display an element as an inline-level flex container. 
+                      It is new in css3.
+inline-table	    - It displays an element as an inline-level table.
+list-Item	        - It makes the element behave like a <li> element.
+table	            - It makes the element behave like a <table> element.
+table-caption       - It makes the element behave like a <caption> element.
+table-column-group	- It makes the element behave like a <colgroup> element.
+table-header-group	- It makes the element behave like a <thead> element.
+table-footer-group	- It makes the element behave like a <tfoot> element.
+table-row-group	    - It makes the element behave like a <tbody> element.
+table-cell	        - It makes the element behave like a <td> element.
+table-row	        - It makes the element behave like a <tr> element.
+table-column	    - It makes the element behave like a <col> element.
+
+# CSS Cursor Pointer:
+----------------------
+Syntax:-
+cursor: value;  
+
+Property Values:
+-----------------
+Auto 
+Alias
+All-scroll 
+Cell
+Context-menu 
+Col-resize 
+Copy
+Crosshair 
+Default  
+E-resize 
+Ew-resize
+Help  
+Move
+. n-resize 
+Ne-resize
+New-resize
+Ns-resize
+Nw-resize
+Nose-resize
+No-drop
+None
+Not-allowed
+Pointer
+Progress
+Row-resize
+S-resize
+Se-resize
+Sw-resize
+Text
+URL
+Vertical-text
+W-resize
+
+# CSS Buttons:
+
+Selecting the Button:
+    CSS provides various ways to select and target elements. You can select a button by
+    its element type, class, or ID. Here are some examples:
+
+    Select by element type:
+    Select by class:
+    Select by ID:
+
+    Basic Button Styles:
+    Hover and Active States:
+    Button Borders and Shadows:
+    Button Transitions and Animations:
+    Advanced Button Styling:
+
+# CSS float property:
+    The CSS Float Property is a positioning property. It is used to push an element to the
+    left or right, Allowing other element to wrap around it. It is generally used with
+    images and layouts.
+
+    values        Description
+
+    none          It specifies that the element is not floated, and will be displayed just 
+                  where it occurs in the text. This is a default value.
+
+    left          It is used to float the element to the left
+
+    right         It is used to float the element to the right.
+
+    initial       It sets the property to its initial value.
+
+    inherit       It is used to inherit this property form its parent element.
+
+# CSS Font property:
+----------------------
+->CSS font color:
+    This property is used to change the color of the text.
+->CSS font family:
+    This property is used to change the face of the font.
+->CSS font size:
+    This property is used to increase or decrease the size of font.
+->CSS font style:
+    This property is used to make the font bold, italic, or oblique.
+->CSS font varient:
+    This property creates a small-caps effect.
+->CSS font weight:
+    This property is used to increase or decrease the boldness and lightness of the font.
+
+# CSS Colors:
+-> RGB Format
+-> RGBA Format
+-> Hexadecimal notation
+-> HSL 
+-> HSLA 
+-> Built-in color.
+
+# CSS Hover property:
+    The hover selector in CSS applies styles to an element while the cursor hovers over it.
+    You can target an element with the :hover selector using its tag name, class, or ID.
+
+# CSS important property:
+    This property in CSS is used to give more important compare to normal property.
+    The !important means 'This is important'.
+
+# CSS margin property:
+    CSS margin Property is used to define the space around elements. It is completely
+    transparent and doesn't have any background color. It clears an area around the element.
+
+    Top, Bottom, Left and right margin can be changed independently using separate properties.
+ 
+Property                Description
+margin              This property is used to set all the properties in one declaration.
+margin-left         It is used to set left margin of an element.
+margin-right        It is used to set right margin of an element.
+margin-top          It is used to set top margin of an element.
+margin-bottom       It is used to set bottom margin of an element.
+
+Value                   Description
+auto                this is used to let the browser calculate a margin
+length              it is used to specify a margin pt, px, cm, etc. Its default value is 0px.
+%                   It is used to define a margin in percent of the width of containing element.
+inherit             It is used to inherit margin from parent element.
+
+# CSS opacity property:
+-------------------------
+The CSS opacity property is used to specify the transparency of an element. In Simple words,
+you can syntax that it specifies the clarity of the image.
+
+# CSS overflow property:
+The css overflow property specifies how to handle the content when it overflow its block level
+container. Every element  on a page is a rectangular box, and the size,  positioning, and
+behavior of these boxes are controlled via CSS.
+
+Value                   Description
+visible     It specifies that overflow is not clipped and renders the element oputside its box.
+            It is the default value of  the CSS overflow property.
+
+hidden      It specifies that the overflow is clipped, and rest of the content will be visible.
+
+scroll      It specifies that the overflow is clipped, and rest of the content will be invisible.
+
+clipped     It specifies that the overflow is clipped, then the rest of the content will be clipped.
+
+Auto        It specifies that if overflow is clipped, a scroll bar is needed to see the rest of the content.
+
+inherit     It inherits the property from its parent element.
+
+initial     It is used to set the property to its initial value.
+
+# CSS padding property:
+    CSS padding property is used to define the space between the element content and the
+    element border.
+
+Property:    
+padding             
+padding-left       
+padding-right       
+padding-top         
+padding-bottom 
+
+Value:      It is used to define fixed padding in pt, px, em etc.
+%           It defines padding in % of containing element.
+length      
+
+# CSS position Property:
+    The CSS Position property specifies the type of positioning method used for and element
+    (static, relative, fixed, absolute or sticky).
+
+    static:     HTML elements are positioned static by default.
+                Static positioned elements are not affected by the top, bottom, right, left 
+                properties.
+    relative:   An element with position:relative; is positioned relative to its normal
+                position.
+
+    fixed:      An element with position:fixed; is positioned relative to the viewport, which
+                means it always stays in the same place even if the page is scrolled.
+
+                The top, bottom, right and left properties are used to position the element.
+
+    absolute:   An element with position:absolute; is positioned relative to the nearest
+                positioned ancestor (instead or postioned relative to the viewport, like fixed)
+        
+    sticky:     An element with position:sticky; is positioned based on the user's scroll 
+                position.
+ 
+# CSS Shadow Effects:
+-> text-shadow
+-> box-shadow
+    syntax:
+    box-shadow:[horizontal-offset][vertical-offset][blur-radius][spread-radius][color];
+
+CSS Text Shadow:
+    The CSS text-shadow property applies shadow to text.
+    In its simplest use, you only specify the horizontal shadow (2px) 
+    and the vertical shadow (2px):
+
+CSS box-shadow Property:
+    The CSS box-shadow property is used to apply one or more shadow to an element.
+
+
+# CSS text-transform:
+--------------------
+This CSS property allows us to change the case of the text. It is used to control the text 
+capitalization. 
+This CSS property can be used to make the appearance of text in all-lowercase or all-uppercase
+or can convert the first character of each word to uppercase.
+
+Syntax:
+text-transform: capitalize| uppercase | lowercase | none | initial | inherit;  
+
+# CSS Outline property:
+----------------------
+CSS outline is just like CSS border property. It facilitates you to draw an extra border 
+around an element to get visual attention.
+
+CSS has the following outline properties:
+outline-style
+outline-color
+outline-width
+outline-offset
+outline
+ 
+# CSS Visibility property:
+-------------------------
+The CSS visibility property is used to specify whether an element is visible or not.
+
+Note: An invisible element also take up the space on the page. By using display property
+      you can create invisible elements that don't take up space.
+
+Syntax:
+visibility: visible|hidden|collapse|initial|inherit; 
+ 
+
+
+# CSS Text Decoration property:
+---------------------
+In CSS (Cascading style sheet), we have some feature text decoration that allows us to
+change how the text looks on a website. With the help of text decoration, we can change the 
+text's color and add various visual effects like underlining, overlining, line through, and
+bolding. It makes the text more attractive and easily readable.
+
+syntax:
+/* Applying a single text decoration */  
+selector {  
+  text-decoration: value;  
+}  
+  
+/* Applying multiple text decorations */  
+selector {  
+  text-decoration: value1 value2 value3 ...;  
+}  
+
+ the various options for the text-decoration property:
+
+None: 
+Underline: 
+Overline: 
+Line-through: 
+Blink: 
+Inherit: 
+Initial: 
+Unset: 
+Hover Effects: 
+Custom Styling: 
+
+#  CSS Sticky:
+---------------
+The CSS position property sets the position for an HTML element. It is also used to place
+ an item behind another element and is useful for the scripted animation effect. 
+ The "position: sticky;" is used to position the element based on the user's scroll position.
+
+# CSS FlexBox:
+    The flexible box Layout Module, makes it easier to design flexible responsive Layout
+    structure without using float or positioning.
+--------------
+Property           Description
+
+align-content       Modify the behavior of the flex-wrap property. It is similar to align-items
+                    but instead of aligning flex items. It align flex lines.
+
+align-items         Vertically align the flex items when the item do not use all available
+                    space on the cross-axis.
+
+display             specifies the type of the box used for an HTML.
+
+flex-direction      Specifies the direction of the flexible items inside a flex container.
+
+flex-wrap           Specifies whether the flex items should wrap or not, If there is not
+                    enough room for them on one flex line.
+
+justify-content     Horizontally aligns the flex items when the items do not use all available
+                    space on the main axis.
+
+#  CSS Justify-content:
+value:
+->center        - It sets the items at the center of the container.
+->flex-start    - It is the default value. It sets the items at the beginning of the container
+->flex-end      - It sets the items at the end of the container.
+->space-around  - It sets the items with space before, between, and after the lines.
+->space-between - It sets the items with space between the lines.
+
+#   CSS align-items Values:
+->center
+->flex-start - It sets the items at the top of the container.
+->flex-end   - It sets the items at the bottom of the container.
+->stretch    - It is the default value. It specifies that Items are stretched to fit the 
+                container.
+->baseline   - It sets the items at the baseline of the container.
+
+# CSS flex-direction Values:
+->row(default value)
+->row-reverse
+->column
+->column-reverse
+
+# CSS flex-wrap values:
+->nowrap - It is the default setting. Flexible objects won't wrap.
+->wrap   - It says that if necessary, the flexible components will wrap.
+->wrap-reverse - This indicates that, if required, the flexible elements will wrap in reverse.
+->initial
+
+# CSS align-content value:
+->stretch
+->flex-start
+->flex-end
+->center
+->space-between
+->space-around
+
+#   CSS Gradient:
+--------------------
+
+The term "CSS gradient" describes a Cascading Style Sheets (CSS) method that enables seamless transitions between two or more colors. It enables you to add a gradient effect to different CSS properties, including text, borders, and backgrounds.
+
+Example:
+.gradient-example {  
+  background: linear-gradient(to right, blue, green);  
+}  
+
+Example2:
+.gradient-example {  
+  background: radial-gradient(circle, red, yellow, green);  
+} 
+
+# CSS Overlay:
+--------------------
+Overlay means to cover the surface of something with a coating. In other words, it is used to set one thing on the top of another. The overlay makes a web-page attractive, and it is easy to design.
+
+# CSS Transitions:
+-------------------
+CSS transitions allows you to change property values smoothly, over a given duration.
+
+Properties name:
+----------
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+ 
+# CSS Animation:
+--------------------------
+CSS Animation property is used to create animation on the webpage.
+An animation makes an element change gradually from one style to another. You can add as many as properties you want to add. You can also specify the changes in percentage.0% specify the start of the animation and 100% specify its completion.
+
+CSS animation properties:
+Property	Description
+@keyframes	- It is used to specify the animation.
+
+animation	- This is a shorthand property, used for setting all the properties, except the          animation-play-state and the animation-fill-mode property.
+
+animation-delay	- It specifies when the animation will start.
+
+animation-direction	- It specifies if or not the animation should play in reserve on alternate cycle.
+
+animation-duration	-It specifies the time duration taken by the animation to complete one cycle.
+
+animation-fill-mode	- it specifies the static style of the element. (when the animation is not playing)
+
+animation-iteration-count -	It specifies the number of times the animation should be played.
+
+animation-play-state - It specifies if the animation is running or paused.
+
+animation-name     - It specifies the name of @keyframes animation.
+
+animation-timing-function - It specifies the speed curve of the animation.
+
+# CSS Zoom:
+----------------
+The zoom CSS property can be used to control the magnification level of an element.
+transform:scale() can be used as an alternative to this property.
+
+The zoom CSS property scales the targeted element, which can affect the page layout. When 
+scaling, the zoomed elelemt from top and center when using the default writing-mode.
+
+Syntax:
+zoom:normal;
+zoom:reset;
+zoom:50%;
+zoom:200%;
+zoom:1.1;
+zoom:0.6;
+
+# CSS Flip:
+------------
+CSS Flip can be used to create or design the 3d effects on our element. We can flip an image, 
+Layout horizontally and vertically.
+ 

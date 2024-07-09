@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradient</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .gradient {
+            height: 200px;
+            background-image: linear-gradient(to right, #ff0000, #00ff00, blue, orange, violet, indigo, pink, yellow);
+        }
+
+        .radial-gradient {
+            background-image: radial-gradient(red 5%, yellow 6%, green 60%);
+            height: 200px;
+        }
+
+        .conic-gradient{
+            background-image: conic-gradient(red, yellow, green, blue, orange);
+            height: 200px;
+        }
+
+        .conic-gradient {
+            background-image: repeating-conic-gradient(red 15%, blue 30%, green 40%);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+        .conic-gradient-deg{
+            background-image: repeating-conic-gradient(yellow 0deg 10deg, blue 10deg 20deg, 
+            green 20deg 30deg);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1 class="gradient-text">Example of CSS Gradient Colors</h1>
+
+    <div class="gradient"></div>
+    <br>
+    <h1>Radial Gradient colors</h1>
+    <div class="radial-gradient"></div>
+
+    <br>
+    <h1>Conic gradients colors</h1>
+    <div class="conic-gradient"></div>
+    <br>
+    <h1>repeating coninc gradients in degree</h1>
+    <div class="conic-gradient-deg"></div>
+
+   
+</center>
+
+</body>
+
+</html>

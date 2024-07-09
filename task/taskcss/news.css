@@ -1,0 +1,106 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: chocolate;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.header-item {
+    display: flex;
+    gap: 15px;
+}
+
+.header-item a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-item a:hover {
+    background-color: coral;
+    color: rgb(235, 179, 190);
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* margin-top: 20px; */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(50% - 20px);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.card p {
+    color: #666666;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.sidebar p {
+    color: #666666;
+}
+
+.codeingimg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-button{
+    color: blue;
+    background-color: lightblue;
+    
+}
+.card-button:hover{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 5px 5px 10px grey;
+}

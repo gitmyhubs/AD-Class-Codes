@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Zoom</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid red;
+            height: 400px;
+            width: 400px;
+        }
+        .box{
+            border: 2px solid rgb(39, 117, 228);
+            width: 200px;
+            height: 200px;
+        }
+        .small{
+            zoom: normal;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <di class="container">
+        <div class="box small"></div>
+        <div class="box normal"></div>
+        <div class="box big"></div>
+    </di>
+</body>
+</html>

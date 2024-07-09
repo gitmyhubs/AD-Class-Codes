@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Earth Rotation</title>
+    <style>
+        .container {
+            background-color: rgb(129, 60, 198);
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            background-color: burlywood; 
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            animation: abcd 6s linear infinite; 
+        }
+        @keyframes abcd {
+            0% {
+                /* transform: rotate(0deg); */
+                /* transform: matrix(1, 2, 3, 4, 5, 6); */
+                /* transform: translate(120px, 50%); */
+                transform: skew(0deg, 10deg);
+            }
+            100% {
+                /* transform: rotate(360deg); */
+                /* transform: matrix(1, 2, 3, 4, 5, 6); */
+                /* transform: translate(120px, 100%); */
+                transform: skew(20deg, 30deg);
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <center>
+        <div class="container">
+            <div class="box">
+                
+                <img src="images/earth_png.png" alt="" width="200" height="200">
+            </div>
+        </div>
+
+
+       
+    </center>
+    
+</body>
+
+</html>

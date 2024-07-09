@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Properties </title>
+    <style>
+        .mybox{
+            border: 2px solid red;
+            height: 80px;
+            width: 60vw;
+            padding: 5px;
+            margin: 5px;
+        }
+        .box1{
+            background-color: antiquewhite;
+            position: relative;
+            top: 20px;
+            left: 20px;    
+        }
+        .box2{
+            background-color: aqua;
+            position: relative;  
+        }
+        .box3{
+            background-color:brown;
+        }
+        .box4{
+            background-color: chartreuse;
+        }
+        .container{
+            position: absolute;
+            border: 2px solid red;
+            top: 40px;
+            left: 40px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="mybox box1">
+            <p>position:relative; with top and left value</p>
+        </div>
+        <div class="mybox box2">
+            <p>position:fixed;</p>
+        </div>
+        <div class="mybox box3">
+
+        </div>
+        <div class="mybox box4">
+
+        </div>
+    </div> 
+</body>
+</html>

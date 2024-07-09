@@ -1,0 +1,343 @@
+
+<option> tag:- The <option> tag defines a an 
+                item to be selected in <select> tag,
+                <optgroup> or <datalist> element.
+ 
+<select>tag:- The <select> tag defines a control for menu
+             to choose one element from multiple options.
+
+            you can associate a lebel tag with it. When 
+            you click the control a menu will open from
+            which you can choose one item.
+
+<optgroup> tag(option group):- The optgroup tag is used to create a group of option in the
+                                 <select> tag.
+
+<fieldset> tag:- The <fieldset> tag is used to group several lebels and inputs in a form.
+                using <legend> tag in it clearly defines the group in the form.
+
+<legend> tag:- The legend tag defines a caption for the content of its parent element.
+
+<datalist> tag:- The <datalist> tag defines a control that lets you choose 
+                one item form a menu and gives you the ability to submit 
+                something other than the menu item.
+
+radio button:- Radio button lets a user select only one of a limited number of choices.
+
+                Radio button are normally presented in radion groups (a collection of radio 
+                buttons describing a set of related options). Only one radio button in a group 
+                can be selected at the same time.
+            
+                Note:- The radio group must share the same name(the value of the name attribute)
+                to be treated as a group.
+
+checkbox button:- The <input type="checkbox"> defines a checkbox.
+
+                The checkbox is shown as a square box that is ticked(checked) when activated.
+
+                checkbox are used to let user select one or more options of a limited number of
+                choices.
+                
+                Tip:- Always add the <label> tag for best accessibility practices!
+
+<button> Tag:- The button tag is used to create a clickable button in HTML, That can trigger 
+                some even or submit a form.
+
+                In a form when you give type="submit" then it becomes submit button for the
+                form.
+
+-> HTML Input Type:-
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+************************************************************************************
+
+TABLE TAGS:-
+-----------------------------------------
+<table> 
+<thead>     (table head)
+<tbody>     (table body)
+<tfoot>     (table footer)
+<tr>        (table row)
+<th>        (table head)
+<td>        (table data)
+<caption>   (table caption)
+<colgroup>  (table column group)
+<col>       (column)
+
+1. <table>:- The <table> tag is used to create a table in HTML to 
+            represent tabular data on the webpage.
+
+            Only <table> tag does not create a table, has many components
+            like head, rows, table data. etc and each component is created 
+            by its own tag.
+
+2. <thead>:- The <thead> tag is used to define a row in a table that represent the head
+            of a table.
+
+3. <tbody>:- The <tbody> tag is used to encapsulate a set of rows in a table which
+            represents the body of a table.
+            Even if you do not use the <tbody> tag in your browser automatically adds it 
+            to the table.
+
+4. <tfoot> tag:- The <tfoot> tag is used to summarise all the rows at the end of the table.
+
+5.  <tr> tag:- The <tr> tag is used to create a row of cells in a table. For each row
+                create a new <tr> tag.
+                The rows are populated with either <th> tag or <td> tag.
+
+6. <th> tag:- The <th> tag is used to define header cells.
+
+7. <td> tag:- The <td> tag is used to create a cell to contain table data.
+
+8. <caption> tag:- The <caption> tag is used to create a caption for a table in HTML. 
+
+9. <colgroup> tag:- The <colgroup> tag is used to define a group of column in the table.
+
+10. <col> tag:- The <col> tag defines a column in a table.
+***********************************************************************
+
+MEDIA TAGS:-
+
+1. <audio> tag:- The <audio> tag is used to embed an audio file on a page.
+
+                The src attribute specifies the location of the audio file.
+
+                you can use control attribute to specify the audio file to be displayed,
+                the volume, and the playback rate.
+
+                It may contain multiple <source> tags to specify multiple audio formats.
+
+2. <video> tag:- The <video> tag is used to embed a media player that supports video
+                    playback on a webpage
+
+                    Even for <audio> media files you can use the <video> tag but you should
+                    use the <audio> tag for <audio> media files.
+
+                    The src attribute specifies the location of the video file.
+
+                    you can use control attributes to specifies the video file to have controls
+                    like play, pause, stop, volume, etc.
+
+                    It may contain multiple <source> tag to specify multiple video formats.
+
+
+3. <track> tag:- The <track> tag is used to embed track in a media file. It is used to specify
+                the location of the track in a media file.
+                
+                The src attribute specifies the location of the track file.
+
+                the srclang attribute specifies the language of the track.
+
+                The kind attribute specifies the kind of track. It can be subtitles,captions
+                descriptions, chapters, etc. It is optional.
+
+                The label attribute specifies a label to be displayed in the user interface.
+
+
+
+
+4. <source> tag:- The <source> tag is used to provide multiple media formats for picture,
+                audio, and video.
+                It is an empty element and does not have any content.
+                It is generally used to provede the same media file in different formats
+                or resolutions.
+
+5. <audio> tag attributes:
+-> autoplay
+-> controls
+-> loop
+-> muted
+-> preload
+-> src
+
+6. <video> tag attributes:
+-> autoplay
+-> controls
+-> height
+-> loop 
+-> muted
+-> poster
+-> preload
+-> src
+-> width
+
+
+META TAGS:-
+1. <meta> tag:-The <meta> tag is used to specify metadata about the document.
+                The <meta> tag is used to specify metadata at the document level.
+
+                The name attribute specifies the name of the metadata and the content 
+                attribute specifies the content of the metadata.
+
+                It is used to specifies the document author, title, description, 
+                keywords, etc.
+
+                It is used in the <head> section of the document.  
+
+<script> tag:- The <script> tag is used to embed javascript code directly into a document.
+
+                It can also connect external javascript files to the HTML document using the
+                src attribute.
+
+                You can use the <script> tag anywhere and any number of times in the body
+                or head of the document.
+
+                It is generally used to include Javascript libraries, such as Jquery,
+                in the document.
+
+
+GENERAL TAGS:-
+---------------------------
+1. <div>
+2. <span>
+3. <header>
+4. <main>
+5. <footer>
+6. <article>
+7. <section>
+8. <details>
+9. <summary>
+
+1. <div> tag:- The <div> tag is used to create a division or a section in an HTML Document.
+
+                It is used to group HTML elements for styling purposes. Unless it is 
+                styled using CSS, It will not be displayed nor will have any effect on
+                the layout of the document.
+
+                It can be used to create a header, footer, sidebar, etc.
+
+2. <span> tag:- The <span> tag is used to create a span or an inline section in a paragraph.
+
+                It is used to group a series of words or other inline elements to be 
+                styled separately.
+
+                Difference between <span> and <div> is that <span> is inline while
+                <div> is block element.
+
+3. <header> tag:- The header tag is used to create a header for a document or section.
+
+                  The header section contains a little introduction, logo, navigation, search,
+                  etc.
+
+                  It is usually placed at the top of the document.
+
+4. <main> tag:- The  <main> tag is used to create a main content area of web page.
+
+                The main content area contains the bulk of the content.
+
+                It is usually placed in the middle of the document.
+
+5. <footer> tag:- The <footer> tag is used to create footer of a web page.
+
+                    The footer section contains copyright, contact information, etc.
+
+                    It is usually placed at the bottom of the document.
+
+6. <article> tag:- The <article> tag is used to create a self-contained, 
+                    stand-alone piece of content that can be used to add additional 
+                    information to a document or site.
+
+                    The article tag is used to group a set of related elements.All the
+                    global attributes are supported by the article tag.
+
+7. <section> tag:- The <section> tag is used to create a section in a document or site.
+                    It is used to group a set of related elements.
+
+                    In general, a section will always contain a heading and a paragraph.
+
+8. <details> tag:- The <details> tag in HTML is used to create a summary element for a 
+                    details element.
+
+                    It creates a toggle button that can be used  to open and close the 
+                    details element.
+
+9. <summary> tag:- The <summary> tag in HTML is used to create a summary element for a 
+                    details element.
+
+                    It creates a summary element for a details element.
+
+
+pending topics:
+---------------
+<iframe> tag:- HTML Iframe is used to display a nested webpage (a webpage within a webpage).
+             The HTML <iframe> tag defines an inline frame, hence it is also called as an 
+             Inline frame.
+
+                An HTML iframe embeds another document within the current HTML document in the
+                 rectangular region.
+
+                The webpage content and iframe contents can interact with each other using 
+                JavaScript.
+
+                syntax: <iframe src="URL"></iframe>
+
+                attributes:
+                autoplay="1"
+                muted="1"
+                loop="1"
+                controls="1"
+
+<marquee> tag:- The <marquee> tag in HTML creates a scrolling text or image effect within a
+                webpage. 
+
+               It allows content to move horizontally or vertically across the screen, 
+               providing a simple way to add dynamic movement to elements. It includes 
+               attributes like direction to specify whether the content moves left, right, 
+               up, or down.
+
+   width- provides the width or breadth of a marquee. For example width="10" or width="20%"
+
+   height - provides the height or length of a marquee. For example height="20" or height="30%"
+
+   direction - provides the direction or way in which your marquee will allow you to scroll.
+               The value of this attribute can be: left, right, up, or down
+
+   scrolldelay -provides a feature whose value will be used for delaying each jump.
+
+   scrollamount- provides value for speeding the marquee feature
+
+   behavior	- provides the scrolling type in a marquee. That scrolling can be like sliding, 
+               scrolling, or alternate
+   loop - provides how many times the marquee will loop
+
+   bgcolor	- provides a background color where the value will be either the name of the 
+               color or the hexadecimal color code.
+   vspace -	provides a vertical space, and its value can be like vspace="20" or vspace="30%"
+
+   hspace -	provides a horizontal space, and its value can be like hspace="20" or hspace="30%"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

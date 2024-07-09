@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .company-profile {
+            margin-bottom: 20px;
+        }
+
+        .company-profile h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .company-profile ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .company-profile ul li {
+            margin-bottom: 10px;
+        }
+
+        .company-profile img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .form-section {
+            margin-top: 20px;
+        }
+
+        .form-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .form-section form {
+            display: grid;
+            gap: 10px;
+        }
+
+        .form-section label {
+            font-weight: bold;
+        }
+
+        .form-section input[type="text"],
+        .form-section input[type="email"],
+        .form-section select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .form-section input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="company-profile">
+            <h2>Company Profile</h2>
+            <ul>
+                <li><strong>Company Name:</strong> Medhavi Foundation</li>
+                <li><strong>Location:</strong>hururu, Hazaribagh</li>
+                <li><strong>Industry:</strong> Education centre</li>
+                <li><strong>About Us:</strong> Medhavi Foundation Prvides a top level education cantre for students.</li>
+                <li><img src="images/ai.png" alt="Company Image" width="500" height="300"></li>
+            </ul>
+        </div>
+
+        <div class="form-section">
+            <h2>Employee Registration Form</h2>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                    <option value="hr">HR</option>
+                    <option value="it">IT</option>
+                    <option value="finance">Finance</option>
+                    <option value="sales">Sales</option>
+                    <option value="marketing">Marketing</option>
+                </select>
+
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Data</title>
+    <style>
+        .edit{
+            background-color: green;
+            color: white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .delete{
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        img{
+            border-radius: 20px;
+        }
+        body{
+            background: rgb(176, 208, 237);
+        }
+        table{
+            background-color: rgb(238, 238, 164);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Student User's Data</h1>
+        <table border="2">
+            <tr>
+                <th>Name:</th>
+                <th>Father's Name:</th>
+                <th>Email:</th>
+                <th>Mobile:</th>
+                <th>Date Of Birth:</th>
+                <th>Images:</th>
+                <th>Action:</th>
+            </tr>
+            <tr>
+                <td>Akshay Kumar</td>
+                <td>Dont Know</td>
+                <td>akshaykumar@gmail.com</td>
+                <td>9988776655</td>
+                <td>10/10/1978</td>
+                <td>
+                    <img src="images/pro.jpg" alt="" height="50" width="50">
+                </td>
+                <td>
+                    <input type="button" name="edit" value="Edit" class="edit">
+                    <input type="button" name="Delete" value="Delete" class="delete">
+                </td>
+            </tr>
+            <tr>
+                <td>Shushant Singh Rajput</td>
+                <td>Dont Know</td>
+                <td>shushantsing@gmail.com</td>
+                <td>8899889977</td>
+                <td>10/10/1979</td>
+                <td>
+                    <img src="images/pro.jpg" alt="" height="50" width="50">
+                </td>
+                <td>
+                    <input type="submit" name="edit" value="Edit" class="edit">
+                    <input type="submit" name="Delete" value="Delete" class="delete">
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
