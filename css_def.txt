@@ -585,12 +585,12 @@ transition-timing-function
 --------------------------
 CSS Animation property is used to create animation on the webpage.
 An animation makes an element change gradually from one style to another. You can add as many as properties you want to add. You can also specify the changes in percentage.0% specify the start of the animation and 100% specify its completion.
-
+ 
 CSS animation properties:
 Property	Description
 @keyframes	- It is used to specify the animation.
 
-animation	- This is a shorthand property, used for setting all the properties, except the          animation-play-state and the animation-fill-mode property.
+animation - This is a shorthand property, used for setting all the properties, except the animation-play-state and the animation-fill-mode property.
 
 animation-delay	- It specifies when the animation will start.
 

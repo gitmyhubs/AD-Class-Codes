@@ -10,7 +10,7 @@
             height: 300px;
         }
         .imgzoom {
-            transition: transform 0.3s ease-in-out;
+            transition: transform 0.9s ease-in-out;
         }
         .imgzoom:hover {
             zoom: 1.1;
@@ -21,20 +21,26 @@
             transition: transform .2s;
             width: 200px;
             height: 200px;
-            margin: 0 auto;
+            margin: 0 auto;  
         }
 
         .zoom:hover {
             transform: scale(0.9);
+            
         }
+       
+       
     </style>
 </head>
 
 <body>
-    <div class="imgzoom">
+    
+
+    <div class="imgzoom" id="myimage">
         <img src="images/cat.jpeg" alt="">
     </div>
     <div class="zoom">Hover over me to see the zoom Effect</div>
+    
 
 </body>
 
