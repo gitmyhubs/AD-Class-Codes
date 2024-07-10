@@ -1,0 +1,57 @@
+# What is JavaScript:
+------------------------------
+=>JavaScript is a lightweight, interpreted programming language.
+
+=>It is commonly used to create dynamic and interactive elements in web applications.
+
+=>Designed for creating network-centric applications.
+
+=>Complementary to and integrated with Java and HTML.
+
+=>Open and cross-platform
+
+=>Using JavaScript we can change the HTML Elements behaviour.
+
+JavaScript is a single-threaded programming language that we can use for client-side or server-side development. It is a dynamically typed programming language, which means that we don’t care about variable data types while writing the JavaScript code. Also, it contains the control statements, operators, and objects like Array, Math, Data, etc.
+
+Note:- 
+-> We can write javascript code in <script></script> tag
+
+-> Or we can write javascript code in external file for example "example.js"
+
+-> the extension of javascript will be ".js"
+
+# Features of JavaScript:
+---------------------------
+=> All popular web browsers support JavaScript as they provide built-in execution environments.
+
+=> JavaScript follows the syntax and structure of the C programming language. Thus, it is a structured programming language.
+
+=> JavaScript is a weakly typed language, where certain types are implicitly cast (depending on the operation).
+
+=> JavaScript is an object-oriented programming language that uses prototypes rather than using classes for inheritance.
+
+=> It is a light-weighted and interpreted language.
+
+=> It is a case-sensitive language.
+
+=> JavaScript is supportable in several operating systems including, Windows, macOS, etc.
+
+=> It provides good control to the users over the web browsers.
+
+# Applications of JavaScript:
+-----------------------------------
+JavaScript is used to create interactive websites. It is mainly used for:
+
+-> Client-side validation
+-> Dynamic drop-down menus
+-> Displaying date and time
+-> Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box 
+    and prompt dialog box)
+-> Displaying clocks etc.
+
+JavaScript Example:
+<script>  
+    document.write("Hello AD Class");  
+</script>  
+
