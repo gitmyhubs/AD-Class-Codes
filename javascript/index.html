@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script src="js_file/firstexample.js"></script>
+    <style>
+        .heading{
+            background-color: brown;
+        }
+    </style>
+    <script>
+        // It is single line comment  
+        // document.write("hello AD Class");
+
+        /* It is multi line comment.  
+        It will not be displayed */
+        // document.write("example of multiline comment");
+
+        // Javascript Variable example
+        var x = 100;
+        var y = 200;
+        var z = x + y;
+        document.write(z);
+
+        // Example of global variable
+        var data = 50;//gloabal variable  
+        function a() {
+            document.writeln(data);
+        }
+        function b() {
+            document.writeln(data);
+        }
+        a();//calling JavaScript function  
+        b();
+    </script>
+</head>
+
+<body>
+    <input type="button" value="button" onclick="message()">
+    <h1 class="heading" id="adclass">this is ad class room</h1>
+
+</body>
+
+</html>
