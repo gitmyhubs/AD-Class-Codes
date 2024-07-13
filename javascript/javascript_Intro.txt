@@ -75,7 +75,15 @@ A JavaScript global variable is accessible from any function. A variable i.e. de
 2. After first letter we can use digits (0 to 9), for example value1.
 3. JavaScript variables are case sensitive, for example x and X are different variables.
 
-JavaScript let keyword:
+Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+
+-> Automatically
+-> Using var
+-> Using let
+-> Using const
+
+# JavaScript let keyword:
 -> JavaScript let keyword was introduced in ES6(2015).
 -> variable declared with let have Block Scope.
 -> Variables declared with let must be Declared before Use.
@@ -88,6 +96,106 @@ JavaScript let keyword:
 -> variable defined with const have block scope.
 
 Note:- Always declare a variable with const when you know that the value should not be changed.
+
+#Javascript Data Types:
+--------------------------------
+JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+
+1. Primitive data type
+2. Non-primitive (reference) data type
+
+JavaScript primitive data types:
+Data Type	 Description
+String	   - represents sequence of characters e.g. "hello"
+Number	   - represents numeric values e.g. 1234
+Boolean	   - represents boolean value either false or true
+Undefined   - represents undefined value
+Null	      - represents null i.e. no value at all
+
+2. JavaScript non-primitive data types:
+Object -    represents instance through which we can access members
+Array  -	represents group of similar values
+RegExp -	represents regular expression
+
+Most Programming language have many number types:
+Whole numbers(integers):
+byte(8-bit)
+short(16-bit)
+int(32-bit)
+long(64-bit)
+
+# Javascript BigInt:
+--------------------
+All Javascript Numbers are stored in a 64-bit floating-point formats.
+JavaScript BigInt is a new datatype (ES2020) that can be used to store integer values that are
+too big to be represented by a normal JavaScript numbers.
+
+Example:
+let abc = bigInt("012345678901234567893425235234");
+
+JavaScript Objects:
+-----------------------
+JavaScript Objects are written with curly braces {}.
+Objects properties are written as name:value pairs, separated by commas.
+
+
+# JAVASCRIPT OPERATORS:
+--------------------------------------------------
+-> JavaScript operators are symbols that are used to perform operations on operands.
+-> Javascript operators are used to perform different types of mathematical and logical computations.
+
+=> There are following types of operators in JavaScript:
+
+1. Arithmetic Operators
+2. Comparison (Relational) Operators
+3. Bitwise Operators
+4. Logical Operators
+5. Assignment Operators
+6. Special Operators
+
+1. JavaScript Arithmetic Operators:
+   Arithmetic operators are used to perform arithmetic operations on Numbers.
+Operator	Description	
++	        Addition	        
+-	        Subtraction	        
+*	        Multiplication	    
+/	        Division	        
+%	        Modulus (Remainder)	
+++	        Increment	        
+--	        Decrement	        
+
+2. JavaScript Comparison(Relational) Operators:
+   The JavaScript comparison operator compares the two operands.
+Operator	Description
+==	        equal to
+===	        equal value and equal type
+!=	        not equal
+!==	        not equal value or not equal type
+>	        greater than
+<	        less than
+>=	        greater than or equal to
+<=	        less than or equal to
+?	        ternary operator
+
+3. JavaScript Bitwise Operators:
+   The bitwise operators perform bitwise operations on operands.
+
+Operator	Description	
+&	        Bitwise AND	
+|	        Bitwise OR	
+^	        Bitwise XOR	
+~	        Bitwise NOT	
+<<	        Bitwise Left Shift	
+>>	        Bitwise Right Shift	
+>>>	        Bitwise Right Shift with Zero	 
+
+
+
+
+
+
+
+
 
 
 
