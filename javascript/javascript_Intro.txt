@@ -113,7 +113,7 @@ Undefined   - represents undefined value
 Null	      - represents null i.e. no value at all
 
 2. JavaScript non-primitive data types:
-Object -    represents instance through which we can access members
+Object - represents instance through which we can access members
 Array  -	represents group of similar values
 RegExp -	represents regular expression
 
@@ -129,7 +129,6 @@ long(64-bit)
 All Javascript Numbers are stored in a 64-bit floating-point formats.
 JavaScript BigInt is a new datatype (ES2020) that can be used to store integer values that are
 too big to be represented by a normal JavaScript numbers.
-
 Example:
 let abc = bigInt("012345678901234567893425235234");
 
@@ -155,7 +154,7 @@ Objects properties are written as name:value pairs, separated by commas.
 
 1. JavaScript Arithmetic Operators:
    Arithmetic operators are used to perform arithmetic operations on Numbers.
-Operator	Description	
+Operator	  Description	
 +	        Addition	        
 -	        Subtraction	        
 *	        Multiplication	    
@@ -166,11 +165,11 @@ Operator	Description
 
 2. JavaScript Comparison(Relational) Operators:
    The JavaScript comparison operator compares the two operands.
-Operator	Description
+Operator	  Description
 ==	        equal to
-===	        equal value and equal type
+===	     equal value and equal type
 !=	        not equal
-!==	        not equal value or not equal type
+!==	     not equal value or not equal type
 >	        greater than
 <	        less than
 >=	        greater than or equal to
@@ -180,15 +179,41 @@ Operator	Description
 3. JavaScript Bitwise Operators:
    The bitwise operators perform bitwise operations on operands.
 
-Operator	Description	
+Operator	  Description	
 &	        Bitwise AND	
 |	        Bitwise OR	
 ^	        Bitwise XOR	
 ~	        Bitwise NOT	
 <<	        Bitwise Left Shift	
 >>	        Bitwise Right Shift	
->>>	        Bitwise Right Shift with Zero	 
+>>>	     Bitwise Right Shift with Zero	 
 
+4. JavaScript Logical Operators:
+Operator	   Description
+&&	         logical and
+||	         logical or
+!	         logical not
+
+5. Assignment Operators:
+Operator	      Description	
+=	            Assign
++=             Add and Assign
+-=             Subtract and Assign		
+*=	            Multiply and assign	
+/=	            Divide and assign	var 
+%=	            Modulus and assign	
+
+6. JavaScript Special Operator:
+Operator	      Description
+(?:)	      -  Conditional Operator returns value based on the condition. It is like if-else.
+,	         -  Comma Operator allows multiple expressions to be evaluated as single statement.
+delete	   -  Delete Operator deletes a property from the object.
+in	         -  In Operator checks if object has the given property
+instanceof  -  checks if the object is an instance of given type
+new	      -  creates an instance (object)
+typeof	   -  checks the type of object.
+void	      -  it discards the expression's return value.
+yield	      -  checks what is returned in a generator by the generator's iterator.
 
 
 
