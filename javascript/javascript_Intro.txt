@@ -280,6 +280,46 @@ switch(expression) {
     // code block
 }
 
+---------------------------------------------------------------------------------------------------------
+# JAVASCRIPT LOOPS
+--------------------------------------------------------------------------------------------------------
+-> In JavaScript, loops are used to execute a block of code repeatedly until a specified condition is met. 
+-> The JavaScript loops are used to iterate the piece of code using for, while, do while loops. 
+   It makes the code compact. It is mostly used in array.
+
+  Types Of Loops in Javascript:
+  1. for loop
+  2. while loop
+  3. do-while loop
+
+  1. for loop:
+  -------------
+  Executes a block of code a specified number of times.
+  syntax:
+  for (initialization; condition; increment/decrement) 
+  {
+    // code block to be executed
+  }
+
+  2. while loop:
+  --------------
+  The while loop executes a block of code as long as a specified condition is true.
+  Syntax:
+  while (condition)  
+  {  
+    code to be executed  
+  }  
+
+  3. do-while loop:
+  -----------------
+  The JavaScript do while loop iterates the elements for the infinite number of times like while loop. But, code is executed at least once whether condition is true or false. 
+  Syntax:
+  do
+  {  
+    code to be executed  
+  }
+  while (condition);  
+
 
 
 
