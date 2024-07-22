@@ -322,7 +322,32 @@ switch(expression) {
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------
+ # JAVASCRIPT FUNCTIONS:
+ ----------------------------------------------------------------------------------------------------------------------------
+ A function in JavaScript is a group of reusable code that can be called anywhere in your 
+ program. It eliminates the need of writing the same code again and again.
 
+ =>Advantage of JavaScript function:
+ -----------------------------------
+ -> Code reusability: We can call a function several times so it save coding.
+ -> Less coding     : It makes our program compact. We don’t need to write many lines of 
+                      code each time to perform a common task.
+
+=> Why to use Functions:
+  -> With functions you can reuse code.
+  -> You can write code that can be used many times.
+  -> You can use the same code with different arguments, to produce different results.
+
+Syntax:
+function functionName() {
+    // code to be executed
+}
+
+Syntax with parameter:
+function functionName(parameter-names) {
+   // code to be executed
+}
 
 
 
