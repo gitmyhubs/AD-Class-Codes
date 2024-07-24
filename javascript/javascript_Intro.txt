@@ -350,6 +350,62 @@ function functionName(parameter-names) {
 }
 
 
+----------------------------------------------------------------------------------------------------------------------------------
+# JAVASCRIPT OBJECTS:
+----------------------------------------------------------------------------------------------------------------------------------
+-> A javaScript object is an entity having state and behavior (properties and method). 
+-> objects are things like: houses, cars, people, animals, pen, bike, chair, glass, keyboard, monitor or any other subjects.
+-> JavaScript is an object-based language. Everything is an object in JavaScript.
+
+=>JavaScript objects Properties:
+The named values, in javaScript objects,are called properties.
+syntax: objectName.propertyName
+        objectName["propertyName"]
+
+=>JavaScript Object Methods:
+Methods are actions that can be performed on objects.
+Methods are function definition stored as property values.
+
+for example car is an Object:
+properties:                                   
+name = Mahindra                            
+model = 2101
+weight = 1000kg
+color = red
+height
+width
+  
+Methods:
+start()
+drive()
+brake()
+stop()
+
+=> Creating Objects in JavaScript:
+----------------------------------
+-> Using an Object Literal
+-> Using the new Keyword
+-> Using an Object Constructor
+
+1. JavaScript Object Literal:
+  An object literal is a list of name:value pairs inside curly braces {}.
+  syntax:
+  object={property1:value1,property2:value2.....propertyN:valueN}  
+
+  Note:-
+  name:value pairs are also called key:value pairs.
+  object literals are also called object initializers.
+
+2. Creating Objects by instance of Objects:
+  Syntax:
+  var objectname=new Object(); 
+
+3. By using an Object constructor :
+  you need to create function with arguments. Each argument value can be assigned in the 
+  current object by using 'this' keyword.
+  The 'this' keyword refers to the current object.
+
+
 
 
 
