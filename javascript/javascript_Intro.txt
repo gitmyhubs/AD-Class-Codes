@@ -405,6 +405,27 @@ stop()
   current object by using 'this' keyword.
   The 'this' keyword refers to the current object.
 
+    ---------------------------------------------------------------------------------------------
+  # JavaScript Arrays
+  -----------------------------------------------------------------------------------------------
+  Arrays in JavaScript are used to store multiple values in a single variable.
+  They are versatile and can hold different types of data, including numbers, 
+  strings, objects, and even other arrays.
+
+  An array in JavaScript is defined using square brackets []. Elements inside 
+  the array are separated by commas ','.
+  
+  Syntax:
+  let array_name = [item1, item2, ...];
+
+  Note: Array indexes start with 0.
+        [0] is the first element. [1] is the second element.
+
+  2) JavaScript Array directly (new keyword):
+  Syntax:
+  var arrayname=new Array();  
+  Here, new keyword is used to create instance of array.
+
 
 
 
