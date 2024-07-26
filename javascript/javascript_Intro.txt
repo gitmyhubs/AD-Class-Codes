@@ -405,9 +405,9 @@ stop()
   current object by using 'this' keyword.
   The 'this' keyword refers to the current object.
 
-    ---------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------
   # JavaScript Arrays
-  -----------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------
   Arrays in JavaScript are used to store multiple values in a single variable.
   They are versatile and can hold different types of data, including numbers, 
   strings, objects, and even other arrays.
@@ -425,6 +425,10 @@ stop()
   Syntax:
   var arrayname=new Array();  
   Here, new keyword is used to create instance of array.
+
+
+
+
 
 
 
