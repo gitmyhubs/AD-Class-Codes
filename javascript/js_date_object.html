@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Date Objects </title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #clock {
+            font-size: 100px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- <h1>JavaScript Date Objects</h1> -->
+
+    <!-- <h2>Current Date And Time</h2><span id="currentDate"></span> -->
+    <!-- <h1> Digital Clock</h1> -->
+    <!-- <h2 id="digitalClock">Digital Clock</h2> -->
+    <!-- <span id="digitalClock"></span> -->
+    <div id="clock"></div>
+
+
+
+
+
+    <script>
+
+
+        // Display full Year
+        // const d = new Date("2021-03-25")
+        // document.write(d);
+        // document.getElementById("demo").innerHTML = d.getFullYear();
+
+        // Display month
+        // const month = new Date();
+        // document.write(month.getMonth() +1);
+
+        // Display Month Name using an Array
+        // const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        // const d = new Date();
+        // let DisplayMonth= months[d.getMonth()];
+        // // document.getElementById("demo").innerHTML = month;
+        // document.write(DisplayMonth);
+
+        // Display Date using getDate() Method
+        // const date = new Date();
+        // document.write(date.getDate());
+
+        // Display Hours using getHours() Method
+        // const hours = new Date();
+        // const currentHours = hours.getHours();
+        // document.write("<h1>Current Hours : " + currentHours + "</h1>");
+
+        // Display Minutes using getMinutes() Method
+        // const min = new Date();
+        // const currentMinutes = min.getMinutes();
+        // document.write("<h1>Current Minutes : " + currentMinutes + "</h1>");
+
+        // display Seconds using The getSeconds() Method
+        // const sec = new Date();
+        // const currSec = sec.getSeconds();
+        // document.write("<h1>Current Seconds : " + currSec + "</h1>");
+
+        // Display Seconds in Miliseconds using The getMilliseconds() Method
+        //  const miliSec = new Date();
+        // const currMiliSec = miliSec.getMilliseconds();
+        // document.write("<h1>Current Seconds : " + currMiliSec + "</h1>");
+
+        // The getDay() Method
+        // The getDay() method returns the weekday of a date as a number (0-6).
+        // const weekday = new Date();
+        // const curDayInNo = weekday.getDay();
+        // document.write("<h1>Week Day In No : " + curDayInNo + "</h1>")
+
+        // Display Week Day using Array 
+        // const Wdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        // const d = new Date();
+        // let day = Wdays[d.getDay()];
+        // document.write("<h1>Week Day using Array: " + day + "</h1>");
+
+
+
+        //---------------------------------------------------------------------------------------------------------------------
+        // let today = new Date();
+        // document.write(today);
+
+        // Display date month and year
+        // var date = new Date();
+        // var day = date.getDate();
+        // var month = date.getMonth() +1;
+        // var year = date.getFullYear();
+        // document.write("<br>Current Date is: " + day + "/" + month + "/" + year);
+
+        // Get current time
+        // var today = new Date();
+        // var h = today.getHours();
+        // var m = today.getMinutes();
+        // var s = today.getSeconds();
+        // // document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+        // document.write("<br> Current Time is : " + h + ':' + m + ':' + s);
+
+        // Get Digital Time clock
+        // window.onload = function ()
+        // {
+        //     getTime();
+        // }
+        // function getTime() {
+        //     var today = new Date();
+        //     var h = today.getHours();
+        //     var m = today.getMinutes();
+        //     var s = today.getSeconds();
+        //     // add a zero in front of numbers<10
+        //     m = checkTime(m);
+        //     s = checkTime(s);
+        //     // document.write("<br>" + h + ":" + m + ":" + s);
+        //     document.getElementById('digitalClock').innerHTML = h + ":" + m + ":" + s;
+        //     setTimeout(function () { getTime() }, 1000);
+        // }
+        // //setInterval("getTime()",1000);//another way
+        // function checkTime(i) {
+        //     if (i < 10) {
+        //         i = "0" + i;
+        //     }
+        //     return i;
+        // }
+
+
+        // 2. Another Example of Digital Clock--------------
+        //     function updateClock() {
+        //     const now = new Date();
+        //     let hours = now.getHours();
+        //     let minutes = now.getMinutes();
+        //     let seconds = now.getSeconds();
+
+        //     // Pad single digit minutes and seconds with leading zeros
+        //     minutes = minutes < 10 ? '0' + minutes : minutes;
+        //     seconds = seconds < 10 ? '0' + seconds : seconds;
+
+        //     // Convert to 12-hour format
+        //     const ampm = hours >= 12 ? 'PM' : 'AM';
+        //     hours = hours % 12;
+        //     hours = hours ? hours : 12; // The hour '0' should be '12'
+
+        //     // Format time string
+        //     const timeString = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+
+        //     // Display time
+        //     document.open(); // Clear the document
+        //     document.write('<h1>' + timeString + '</h1>');
+        //     document.close(); // Close the document
+        // }
+        // // Update clock every second
+        // setInterval(updateClock, 1000);
+        // // Initial call to display the clock immediately
+        // updateClock();
+
+
+
+        // 3. Example of Digital Clock
+        function updateClock() {
+            const now = new Date();
+            let hours = now.getHours();
+            let minutes = now.getMinutes();
+            let seconds = now.getSeconds();
+
+            // Format hours, minutes, and seconds to be always two digits
+            hours = hours < 10 ? '0' + hours : hours;
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            // Create time string
+            const timeString = hours + ':' + minutes + ':' + seconds;
+
+            // Update the clock's text content
+            document.getElementById('clock').textContent = timeString;
+        }
+        // Update clock every second
+        setInterval(updateClock, 1000);
+        // Initial call to display the clock immediately
+        updateClock();
+
+
+
+    </script>
+
+</body>
+
+</html>
