@@ -558,6 +558,37 @@ toSource() => returns the source of Boolean object as a string.
 toString() => converts Boolean into String.
 valueOf()	 => converts other type into Boolean.
 
+========================================================================================================
+                      # JAVASCRIPT DOM (Document Object Model)
+========================================================================================================
+The HTML DOM allows JavaScript to access and modify the content of HTML elements. 
+JavaScript can change all HTML elements, attributes, CSS styles in the page. 
+JavaScript can also add, remove the HTML elements and attributes. 
+
+Syntax: document.methodName();
+
+=> 1. JavaScript document.getElementById() Method:
+--------------------------------------------------
+The JavaScript getElementById() method of the document object is the most popular method to 
+access the HTML elements using the id.
+
+=> 2. getElementsByClassName() method:
+-------------------------------
+The getElementsByClassName() method is used for selecting or getting the elements through 
+their class name value.
+
+=> 3. document.getElementsByName() method:
+-----------------------------------
+The document.getElementsByName() method returns all the element of specified name.
+
+=>4. document.getElementsByTagName() method:
+-------------------------------------------
+The document.getElementsByTagName() method returns all the element of specified tag name.
+
+=>5. Javascript - innerHTML Methods:
+------------------------------------
+The innerHTML property is used to get or set the HTML content inside an element.
+
  
 
 
