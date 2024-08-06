@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Validation</title>
+    <script src="js_SimpleFormValidation.js"></script>
+    <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .center {
+            text-align: center;
+            font-size: 50px;
+            background: linear-gradient(to left, red, blue);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .center-btn{
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select {
+            width: 90%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2 class="center">Student Registration Form</h2>
+    <form action="#" method="post" onsubmit="return validateForm()">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type="text" name="first_name" id="first_name">
+                    <span id="first_name_error" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name" id="last_name">
+                    <span id="last_name_error" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" name="email" id="email">
+                    <span id="email_error" style="color: red;"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td>
+                    <input type="text" name="mobile" id="mobile">
+                    <span id="mobile_error" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Select City:</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="" disabled selected>Select Your City</option>
+                        <option value="Hazaribagh">Hazaribagh</option>
+                        <option value="Ranchi">Ranchi</option>
+                        <option value="Patna">Patna</option>
+                        <option value="Delhi">Delhi</option>
+                    </select>
+                    <span id="city_error" style="color: red;"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" id="dob">
+                    <span id="dob_error" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                    <span id="gender_error" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <input type="text" name="address" id="address">
+                    <span id="address_error" style="color: red;"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="center-btn">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
