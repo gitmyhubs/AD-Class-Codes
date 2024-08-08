@@ -1,0 +1,101 @@
+====================================================================================
+INTRODUCTION TO PHP
+====================================================================================
+PHP (Hypertext Preprocessor) is a widely-used open-source server-side scripting language
+designed specifically for web development. It can be embedded into HTML and is known for
+its ease of use, flexibility, and efficiency.
+
+=> Features of PHP:
+-------------------
+->Simplicity: Easy to learn and use.
+->Flexibility: Can be embedded in HTML, supports multiple databases like MySQL, PostgreSQL, 
+                Oracle, etc.
+->Open Source: Free to use and has a large community.
+->Platform Independence: Runs on various platforms like Windows, Linux, MacOS.
+->Speed: Generally faster than other scripting languages like ASP and JSP.
+->Error Reporting: Supports reporting of simple and complex errors.
+->Object-oriented programming (OOP): PHP supports OOP concepts like classes, objects,
+ inheritance, and polymorphism, enabling better code organization and modularity.
+ -> Built-in functions:
+
+=> Usages of PHP:
+-----------------
+->Web Development: Creating dynamic web pages and applications.
+->Server-Side Scripting: Executing code on the server to create dynamic content.
+->Command Line Scripting: Running scripts without a server or browser.
+->Database Interaction: Interacting with databases to fetch and manipulate data.
+->Content Management Systems (CMS): Powering CMSs like WordPress, Joomla, and Drupal.
+->E-commerce: Developing online stores and shopping carts.
+->Data Encryption: Implementing encryption and security features.
+->Image Processing: Handling image manipulation and generation.
+
+=> How to Install PHP:
+---------------------
+-> Go to this link https://www.apachefriends.org/ // Download Xampp 
+-> Choose Your Operating System for Download like Windows, MAC OS, Linux.
+-> Download the software and install it.
+-> After installing the XAMPP Server check type in URL 'localhost'
+
+=> Where to save the project file:
+---------------------------------
+-> Go to installed drive name
+-> Search for 'xampp' folder
+-> Under 'xampp' folder go to 'htdocs' folder
+-> Create project folder name under 'htdocs' folder.
+-> The extension of file should be '.php' for example 'index.php'.
+
+#How to Start Coding First in PHP:
+<?php 
+// your php code here...
+?>
+
+=> How to Run PHP file:
+-----------------------
+->Run the XAMPP server and start the Apache and MySQL.
+->Now, open the web browser and type localhost http://localhost/yourphpfilename.php 
+    on your browser window.
+
+=> PHP Case Sensitivity:
+------------------------
+In PHP, keyword (e.g., echo, if, else, while), functions, user-defined functions, 
+classes are not case-sensitive. However, all variable names are case-sensitive.
+
+------------------------------------------------------------------------------
+# PHP Echo:
+----------------------------------------------------------------------------------
+-> echo is a statement, which is used to display the output.
+-> echo can be used with or without parentheses: echo(), and echo.
+-> echo does not return any value.
+-> We can pass multiple strings separated by a comma (,) in echo.
+-> echo is faster than the print statement.
+
+----------------------------------------------------------------
+# PHP Print
+-------------------------------------------------------------
+Print statement can be used with or without parentheses: print and print().
+Unlike echo, it always returns 1.
+
+-> print is a statement, used as an alternative to echo at many times to display the output.
+-> print can be used with or without parentheses.
+-> print always returns an integer value, which is 1.
+-> Using print, we cannot pass multiple arguments.
+-> print is slower than the echo statement.
+
+-----------------------------------------------
+#Variable in PHP
+----------------------------------------------------
+In PHP, a variable is declared using a $ sign followed by the variable name. 
+syntax: $variablename=value;  
+
+Rules for declaring PHP variable:
+
+-> A variable must start with a dollar ($) sign, followed by the variable name.
+-> It can only contain alpha-numeric character and underscore (A-z, 0-9, _).
+-> A variable name must start with a letter or underscore (_) character.
+-> A PHP variable name cannot contain spaces.
+-> One thing to be kept in mind that the variable name cannot start with a number
+ or special symbols.
+-> PHP variables are case-sensitive, so $name and $NAME both are treated 
+as different variable.
+
+
