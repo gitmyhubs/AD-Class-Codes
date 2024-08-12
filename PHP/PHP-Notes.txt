@@ -98,4 +98,50 @@ Rules for declaring PHP variable:
 -> PHP variables are case-sensitive, so $name and $NAME both are treated 
 as different variable.
 
+=========================================================================
+PHP Variable Scope
+=========================================================================
+PHP has two types of variable scopes:
+1> Local variable
+2> Global variable
+
+1> Local Variable:
+-----------------
+A Variables defined inside a function or method are only accessible within that 
+function or method are also called Local variable.
+
+2> Global Variable:
+------------------
+The global variables are the variables that are declared outside the function. 
+These variables can be accessed anywhere in the program. To access the global 
+variable within a function, use the GLOBAL keyword before the variable.
+
+=======================================================================
+PHP $ and $$ Variables:
+=======================================================================
+The $var (single dollar) is a normal variable with the name var that stores 
+any value like string, integer, float, etc.
+
+The $$var (double dollar) is a reference variable that stores the value of 
+the $variable inside it.
+
+=======================================================================
+PHP Constants:
+=======================================================================
+Constants are like variables, except that once they are defined they cannot
+be changed or undefined.
+
+1>Using define() function
+2>Using const keyword
+
+1>define():
+----------
+Use the define() function to create a constant. It defines constant at run time.
+syntax: define(name, value, case-insensitive)  
+
+2>PHP constant: const keyword:
+-------------------------------
+PHP introduced a keyword const to create a constant. The const keyword defines 
+constants at compile time. It is a language construct, not a function. 
+The constant defined using const keyword are case-sensitive.
 
