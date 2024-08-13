@@ -145,3 +145,52 @@ PHP introduced a keyword const to create a constant. The const keyword defines
 constants at compile time. It is a language construct, not a function. 
 The constant defined using const keyword are case-sensitive.
 
+=========================================================================
+PHP Data Types
+=========================================================================
+PHP supports the following data types:
+
+1>Scalar Types (predefined)
+2>Compound Types (user-defined)
+3>Special Types
+
+1>Scalar Types (predefined): It holds only single value.
+----------------------------
+->string:
+    A string is a sequence of characters, like "Hello AD CLass!".
+    A string can be any text inside quotes. You can use single or double quotes.
+
+->integer:
+    An integer data type is a non-decimal number 
+    An integer must have at least one digit
+    An integer must not have a decimal point
+    An integer can be either positive or negative
+    Integers can be specified in: decimal (base 10), hexadecimal (base 16), octal 
+    (base 8), or binary (base 2) notation.
+    example: $num = 3242323;
+
+->float:
+    A float (floating point number) is a number with a decimal point or a number 
+    in exponential form.
+    for example: $num = 34.566;
+
+->boolean:
+    A Boolean represents two possible states: TRUE or FALSE.
+    example:$x = true;
+            
+2>Compound Types (user-defined): It can hold multiple values.
+-------------------------------
+->array:
+    An array stores multiple values in one single variable.
+    example: $arr = ["name", "Email", "Password"];
+ 
+
+->object:
+    A class is a template for objects, and an object is an instance of a class.
+    Objects are the instances of user-defined classes that can store both values and functions.
+
+3>Special Types:
+----------------
+->resource
+->NULL
+
