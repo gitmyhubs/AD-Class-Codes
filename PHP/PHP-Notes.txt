@@ -194,3 +194,94 @@ PHP supports the following data types:
 ->resource
 ->NULL
 
+==========================================================================
+                        PHP Operators
+=========================================================================
+Operators are used to performing operations on some values. In other words, 
+we can describe operators as something that takes some values, performs some 
+operation on them, and gives a result. 
+From example: “10 + 5 = 15”.
+
+=> There are following types of Operators in PHP:
+------------------------------------------------
+1>Arithmetic operators
+2>Assignment operators
+3>Comparison operators
+4>Increment/Decrement operators
+5>Logical operators
+6>String operators
+7>Array operators
+8>Conditional assignment operators
+
+1>Arithmetic operators:
+------------------------
++	Addition	
+-	Subtraction		
+*	Multiplication	
+/	Division	
+%	Modulus		
+**	Exponentiation	
+
+2> Assignment operators:
+-----------------------
+Assignment	Same as...	
+x = y	    x = y		
+x += y	    x = x + y	
+x -= y	    x = x - y	
+x *= y	    x = x * y		
+x /= y	    x = x / y		
+x %= y	    x = x % y
+
+
+3> Comparison Operators:
+-----------------------
+Operator   Name
+==	       Equal	         	
+===	       Identical	
+!=	       Not equal		
+<>	       Not equal		
+!==	       Not identical		
+>	       Greater than		
+<	       Less than	
+>=	       Greater than or equal to		
+<=	       Less than or equal to
+
+4> Increment / Decrement Operator:
+----------------------------------
+Operator	Same as...	Description	
+++$x	Pre-increment	Increments $x by one, then returns $x	
+$x++	Post-increment	Returns $x, then increments $x by one	
+--$x	Pre-decrement	Decrements $x by one, then returns $x	
+$x--	Post-decrement	Returns $x, then decrements $x by one
+
+5> Logical Operator:
+-------------------
+Operator	Name	Example	    Result	
+and	        And	    $x and $y	True if both $x and $y are true	
+or	        Or	    $x or $y	True if either $x or $y is true	
+xor	        Xor	    $x xor $y	True if either $x or $y is true, but not both	
+&&	        And	    $x && $y	True if both $x and $y are true	
+||	        Or	    $x || $y	True if either $x or $y is true	
+!	        Not	    !$x	        True if $x is not true
+
+6> String Operators:
+---------------------
+Operator	Name	                    Example	        Result	
+.	        Concatenation	            $str1 . $str2	Concatenation of $str1 and $str2	
+.=	        Concatenation assignment	$str1 .= $str2	Appends $str2 to $str1
+
+7> Array Operators:
+-------------------
+Operator    Name	        Example	    Explanation
++	        Union	        $a + $y	    Union of $a and $b
+==	        Equality	    $a == $b	Return TRUE if $a and $b have same key/value pair
+!=	        Inequality	    $a != $b	Return TRUE if $a is not equal to $b
+===	        Identity	    $a === $b	Return TRUE if $a and $b have same key/value pair of same type in same order
+!==	        Non-Identity    $a !== $b	Return TRUE if $a is not identical to $b
+<>	        Inequality	    $a <> $b	Return TRUE if $a is not equal to $b
+
+8> Conditional Assignment Operator:
+----------------------------------
+the conditional assignment operator is the ternary operator (?:), which provides a 
+concise way to assign a value based on a condition. 
+Syntax: condition ? value_if_true : value_if_false;
