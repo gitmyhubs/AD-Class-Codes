@@ -363,4 +363,20 @@ Syntax: in_array(search, array, type)
 
 ->array_merge() - The array_merge() function merges one or more arrays into one array.
 
-
+==============================================================================
+                            PHP Function
+==============================================================================
+->A function is a block of code that performs a specific task.
+->Functions can accept inputs (known as parameters), perform operations, and return a result. 
+->PHP has over 1000 built-in functions that can be called directly, from within a script, 
+    to perform a specific task.
+    syntax: function functionname()
+    {
+        // your code here...
+    }
+    
+    parameterized function syntax:
+    function funParams(parameter)
+    {
+       // your code here...
+    }
