@@ -380,3 +380,22 @@ Syntax: in_array(search, array, type)
     {
        // your code here...
     }
+
+    ============================================================================
+                            PHP Includes
+===========================================================================
+PHP allows you to include file so that a page content can be reused many times. 
+It is very helpful to include files when you want to apply the same HTML or PHP 
+code to multiple pages of a website.
+
+There are two ways to include file in PHP:-
+
+1>include: include only generates a warning, and continue the execution of the script.
+Syntax: include 'filename.php';
+
+2>require: require generates a fatal error, and stop the execution of the script.
+Syntax: include_once 'filename.php';
+
+Advantages:
+    -> Code Reusability
+    -> Easy Editable
