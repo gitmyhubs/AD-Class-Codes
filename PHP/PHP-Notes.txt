@@ -285,3 +285,44 @@ Operator    Name	        Example	    Explanation
 the conditional assignment operator is the ternary operator (?:), which provides a 
 concise way to assign a value based on a condition. 
 Syntax: condition ? value_if_true : value_if_false;
+
+=======================================================================================
+                            PHP Control statement
+=======================================================================================
+control statements are used to control the flow of execution in a program. 
+They allow you to make decisions, repeat actions, and handle different conditions in your code.
+
+1> if statement:
+--------------
+The if statement allows you to execute a block of code if a specified condition is true.
+
+2>if-else Statement:
+--------------------
+The if-else statement provides an alternative block of code to execute if the condition is false.
+
+3> if-elseif-else Statement:
+---------------------------
+The if-elseif-else statement allows you to check multiple conditions.
+
+4> switch Statement:
+--------------------
+The switch statement is used to perform different actions based on different conditions.
+
+5> for Loop:
+-----------
+The for loop is used to execute a block of code a specified number of times.
+for(a = 5; a< 10; a++)
+
+6> while Loop:
+-------------
+the while loop executes a block of code as long as a specified condition is true.
+
+7>do-while Loop:
+---------------
+The do-while loop is similar to the while loop but guarantees that the block of code will 
+execute at least once.
+
+8> foreach Loop:
+----------------
+The foreach loop - Loops through a block of code for each element in an array or each
+ property in an object.
