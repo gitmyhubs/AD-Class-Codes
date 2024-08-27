@@ -399,3 +399,74 @@ Syntax: include_once 'filename.php';
 Advantages:
     -> Code Reusability
     -> Easy Editable
+
+==============================================================================
+                        PHP Global Variables - Superglobals
+==============================================================================
+->Superglobals are built-in global arrays that are always accessible, regardless of scope.
+->hey provide access to important data and configurations and facilitate interaction
+    between different parts of your application.
+
+The PHP superglobal variables are:
+
+1>$GLOBALS
+2>$_SERVER
+3>$_REQUEST
+4>$_POST
+5>$_GET
+6>$_FILES
+7>$_ENV
+8>$_COOKIE
+9>$_SESSION
+
+1>$GLOBALS - $GLOBALS is an array that contains all global variables.
+
+2>$_REQUEST
+----------- 
+->Contains data from both $_GET and $_POST arrays, and $_COOKIE array. 
+->$_SERVER is a PHP super global variable which holds information about 
+    headers, paths, and script locations.
+
+3> $_POST
+---------  
+$_POST contains an array of variables received via the HTTP POST method.
+    There are two main ways to send variables via the HTTP Post method:
+->HTML forms
+->JavaScript HTTP requests
+
+4> $_SERVER
+-----------
+$_SERVER is a PHP super global variable which holds information about headers,
+ paths, and script locations.
+
+5> $_GET
+--------
+$_GET contains an array of variables received via the HTTP GET method.
+
+6> $_FILES
+$_FILES is a PHP super global variable that holds information about file uploads.
+
+It's primarily used when dealing with file uploads via forms with the 
+enctype="multipart/form-data" attribute.
+
+7> $_ENV
+->$_ENV is a PHP super global variable that contains environment variables.
+These variables are often set by the server or the environment in which 
+PHP is running and can be used to retrieve configuration details, paths, 
+or other environment-specific information.
+
+->Access to $_ENV may vary based on server configuration and settings in php.ini.
+
+8> $_COOKIE
+->$_COOKIE is a PHP super global variable that contains all cookies sent to the 
+server by the client.
+->Cookies are key-value pairs sent from the client's browser and stored on the server, 
+allowing data to persist across requests.
+->This array is used to retrieve cookie values that were set in the user's browser.
+
+9> $_SESSION
+->$_SESSION is a PHP super global variable used to store session variables.
+->Sessions allow data to be preserved across multiple page requests by the same 
+user, typically stored on the server.
+->Variables are stored in the session and can be accessed and modified throughout 
+the user’s interaction with the web application.
