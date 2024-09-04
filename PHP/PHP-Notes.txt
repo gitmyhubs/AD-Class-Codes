@@ -543,3 +543,28 @@ syntx: UPDATE table_name SET column1=value, column2=value2,... WHERE some_column
 
 example:
 $sql = "UPDATE users SET lastname='sharma' WHERE id=2";
+
+===================================================================
+                    MySQL Fetch using PHP
+===================================================================
+mysqli_fetch_row():
+------------------
+Return a result row as numeric array where the column values are accessed by indices.
+
+mysqli_fetch_assoc():
+--------------------
+Returns a result row as an associtive array where the column names are the keys. 
+
+mysqli_fetch_array():
+--------------------
+Returns a result row as an array. You can choose between an associative array, a 
+numeric array, or both bydefault it retrun both.
+
+mysqli_fetch_object():
+----------------------
+Return a result row as n objec where column names are properties of the objects.
+
+mysqli_all():
+-------------
+fetch all results row into an array. You can specify the type of array to be returned:
+associative, numeric or both.
