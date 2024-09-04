@@ -470,3 +470,76 @@ allowing data to persist across requests.
 user, typically stored on the server.
 ->Variables are stored in the session and can be accessed and modified throughout 
 the user’s interaction with the web application.
+
+=======================================================================
+                        What is MySQL
+=======================================================================
+-> MySQL is a Database that can connect and manupulate with the database.
+-> MySQL is a database system that runs on a server.
+-> MySQL is very fast, reliable, and easy to use
+-> MySQL is free to download and use
+
+The data in a MySQL database are stored in tables. A table is a collection
+ of related data, and it consists of columns and rows.
+
+ => Connecting to database using MySQL:
+ --------------------------------------
+ We need four thing to connect for database:
+ 1> servername or hostname :  for example "localhost", "xyz.com" 
+ 2> username : by default user name is "root"
+ 3> passwpord : by default password is empty that is ""
+ 4> database name : for example  "employee"
+
+ => How to create  Database name  and tables in MySQL: 
+ -> First  Go to browser and type "localhost/phpmyadmin"
+ ->A interface will open 
+ ->goto database section and give a name for database like  "adclass"
+ -> next goto table and create your table name like "users"
+ ->define How many columns are need to be  inserted columns.
+
+ =>Insert data into table:
+
+ ->The SQL query must be quoted in PHP
+->String values inside the SQL query must be quoted
+->Numeric values must not be quoted
+->The word NULL must not be quoted
+
+ Syntax:
+ INSERT INTO table_name (column1, column2, column3,...)
+VALUES (value1, value2, value3,...)
+
+Example:
+$sql = "INSERT INTO users (firstname, lastname, email)
+VALUES ('piyush', 'kumar', 'piyush@gmail.com')";
+
+=> PHP MySQL Select Data:
+The SELECT statement is used to select data from one or more tables:
+syntax: SELECT column_name(s) FROM table_name
+
+syntax for select all:
+or we can use the * character to select ALL columns from a table:
+SELECT * FROM table_name
+
+=> PHP MySQL Use The WHERE Clause:
+The WHERE clause is used to filter records.
+The WHERE clause is used to extract only those records that fulfill a specified condition.
+syntax: 
+SELECT column_name(s) FROM table_name WHERE column_name operator value 
+
+example:
+$sql = "SELECT id, firstname, lastname FROM student WHERE lastname='sharma'";
+
+=>PHP MySQL Delete Data:
+The DELETE statement is used to delete records from a table:
+syntax:
+DELETE FROM table_name WHERE some_column = some_value
+
+exa:
+$sql = "DELETE FROM users WHERE id=3";
+
+=>PHP MySQL Update Data:
+The UPDATE statement is used to update existing records in a table
+syntx: UPDATE table_name SET column1=value, column2=value2,... WHERE some_column=some_value 
+
+example:
+$sql = "UPDATE users SET lastname='sharma' WHERE id=2";
